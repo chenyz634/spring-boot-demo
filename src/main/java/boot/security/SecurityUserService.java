@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * Spring Security 用户服务。
  *
- * @author boot
+ * @author chen
  */
 @Transactional(rollbackFor = Throwable.class)
 public class SecurityUserService implements UserDetailsService {

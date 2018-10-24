@@ -14,7 +14,7 @@ import java.security.spec.RSAPublicKeySpec;
 /**
  * RSA加解密。
  *
- * @author boot
+ * @author chen
  */
 public class RSAEncryptor {
 

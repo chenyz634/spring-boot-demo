@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletRequest;
  * 获取用户请求对象及上下文、国际化消息转换类。
  * 根据用户请求头Accept-Language返回对应语言的消息。
  *
- * @author boot
+ * @author chen
  */
 public class RequestUtils {
 

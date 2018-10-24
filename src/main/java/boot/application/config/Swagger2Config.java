@@ -15,7 +15,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 /**
  * Swagger2接口文档配置。
  *
- * @author boot
+ * @author chen
  */
 @Configuration
 @ConditionalOnProperty(name = "swagger.enable", havingValue = "true")

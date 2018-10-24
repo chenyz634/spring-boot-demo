@@ -12,7 +12,7 @@ import java.util.List;
  * Security 用户。
  * 该对象需要缓存和序列化，尽量保持结构稳定。
  *
- * @author boot
+ * @author chen
  */
 public class SecurityUser implements UserDetails {
 

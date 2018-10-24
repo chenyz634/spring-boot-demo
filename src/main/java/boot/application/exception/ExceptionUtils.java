@@ -3,7 +3,7 @@ package boot.application.exception;
 /**
  * 异常工具类。
  *
- * @author boot
+ * @author chen
  */
 public class ExceptionUtils {
 

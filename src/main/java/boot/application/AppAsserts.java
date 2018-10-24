@@ -10,7 +10,7 @@ import java.util.regex.Pattern;
 /**
  * 检查应用参数。
  *
- * @author boot
+ * @author chen
  */
 public class AppAsserts {
 

@@ -10,7 +10,7 @@ import java.util.Date;
  * 只要时间字段顺序为：年、月、天、时、分、秒、毫秒、时区：时、时区：分即可。
  * 支持任意分隔符或按数位长度分隔，小时字段之后出现Z、+和-号则跳到时区。
  *
- * @author boot
+ * @author chen
  */
 public class StringDateParser {
 

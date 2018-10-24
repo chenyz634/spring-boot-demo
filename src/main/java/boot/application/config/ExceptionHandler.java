@@ -19,7 +19,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * 全局异常捕获，优先级高于默认错误页面。
  *
- * @author boot
+ * @author chen
  */
 @Component
 public class ExceptionHandler implements HandlerExceptionResolver {

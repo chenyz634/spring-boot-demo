@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * GSON工具类。
  *
- * @author boot
+ * @author chen
  */
 public final class GsonUtils {
 

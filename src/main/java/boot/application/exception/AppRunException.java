@@ -5,7 +5,7 @@ import boot.application.ResultMessage;
 /**
  * 业务运行时异常对象，方便统一处理，支持链式调用。
  *
- * @author boot
+ * @author chen
  */
 public class AppRunException extends RuntimeException implements ResultException {
 

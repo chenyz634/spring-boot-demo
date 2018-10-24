@@ -3,7 +3,7 @@ package boot.application.exception;
 /**
  * ResultException可自动转换成Result格式返回。
  *
- * @author boot
+ * @author chen
  */
 public interface ResultException {
 

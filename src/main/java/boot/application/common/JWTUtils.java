@@ -11,7 +11,7 @@ import java.util.Map;
 /**
  * JWT生成与解析类。
  *
- * @author boot
+ * @author chen
  */
 public class JWTUtils {
 

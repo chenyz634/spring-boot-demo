@@ -27,7 +27,7 @@ import java.util.Date;
 /**
  * Spring MVC 全局配置。
  *
- * @author boot
+ * @author chen
  */
 @Configuration
 public class WebAppConfigurer extends WebMvcConfigurerAdapter {

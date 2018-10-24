@@ -22,7 +22,7 @@ import java.io.PrintWriter;
 /**
  * Spring Security 全局配置。
  *
- * @author boot
+ * @author chen
  */
 @Configuration
 @EnableGlobalMethodSecurity(prePostEnabled = true)

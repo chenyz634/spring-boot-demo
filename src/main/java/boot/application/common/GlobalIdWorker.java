@@ -17,7 +17,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  * 位值组成：毫秒去掉低6位(精度为64毫秒)+24位机器标识+16位进程标识+24位累加数。
  * 使用31位10进制整数或20位36进制字符串可使用到3060年，到时扩展字段长度即可。
  *
- * @author boot
+ * @author chen
  */
 public class GlobalIdWorker {
     private static final Logger LOGGER = LoggerFactory.getLogger(GlobalIdWorker.class);

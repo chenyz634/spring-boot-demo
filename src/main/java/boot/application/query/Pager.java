@@ -3,7 +3,7 @@ package boot.application.query;
 /**
  * 分页参数。
  *
- * @author boot
+ * @author chen
  **/
 public class Pager {
     private int offset = 0;

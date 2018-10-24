@@ -8,7 +8,7 @@ import java.util.function.Consumer;
 /**
  * 分页数据。
  *
- * @author boot
+ * @author chen
  **/
 public class Paging<T> {
     private long total;

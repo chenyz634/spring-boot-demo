@@ -20,7 +20,7 @@ import java.security.KeyStore;
  * keytool -genkey -alias tomcat -keyalg RSA
  * 生成的 .keystore 文件在个人 home 目录下
  *
- * @author boot
+ * @author chen
  */
 @Configuration
 @EnableConfigurationProperties(SSLWebConfigurer.SSLConnectorProperties.class)

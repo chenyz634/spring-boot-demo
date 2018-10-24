@@ -46,7 +46,7 @@ import java.util.concurrent.TimeUnit;
  * 使用JSON的Body参数的PUT请求：
  * OkHttpUtils.bodyPut().header().json().add().param().map().bean().callXxx()
  *
- * @author boot
+ * @author chen
  * @date 2017/6/15
  */
 public class OkHttpUtils {

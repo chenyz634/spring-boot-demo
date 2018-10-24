@@ -3,7 +3,7 @@ package boot;
 /**
  * Main方法临时测试用。
  *
- * @author boot
+ * @author
  * @date 2017/4/21
  */
 public class MainTempTests {

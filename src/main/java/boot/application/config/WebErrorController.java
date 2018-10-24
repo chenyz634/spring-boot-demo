@@ -25,7 +25,7 @@ import java.util.Map;
 /**
  * Web应用错误控制器，优先级低于全局异常处理。
  *
- * @author boot
+ * @author chen
  */
 @Controller
 @ApiIgnore

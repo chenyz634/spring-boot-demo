@@ -5,7 +5,7 @@ import java.security.SecureRandom;
 /**
  * 随机字符串生成器。
  *
- * @author boot
+ * @author chen
  * @since 2017/2/15
  */
 public class RandomString {

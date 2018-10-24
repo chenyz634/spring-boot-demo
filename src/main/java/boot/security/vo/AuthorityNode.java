@@ -9,7 +9,7 @@ import java.util.List;
  * Spring Security中的Authority或Role。
  * 该对象需要缓存和序列化，尽量保持结构稳定。
  *
- * @author boot
+ * @author chen
  */
 public class AuthorityNode implements GrantedAuthority {
 

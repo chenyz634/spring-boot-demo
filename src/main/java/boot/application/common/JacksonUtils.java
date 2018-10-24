@@ -11,7 +11,7 @@ import java.text.SimpleDateFormat;
 /**
  * Jackson简单封装。
  *
- * @author boot
+ * @author chen
  */
 public class JacksonUtils {
 
