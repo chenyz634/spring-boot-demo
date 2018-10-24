@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<html lang="zh-cn">
+<head>
+  <title>服务系统</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="vendor/fullPage/jquery.fullPage.css" rel="stylesheet"/>
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet"/>
+  <link href="vendor/waves/waves.min.css" rel="stylesheet"/>
+  <link href="vendor/malihu-scrollbar/jquery.mScrollbar.min.css" rel="stylesheet"/>
+  <link href="assets/index.css" rel="stylesheet"/>
+</head>
+<body id="skin-sky">
+<header id="header">
+  <!-- 顶部导航菜单 -->
+  <ul id="menu">
+    <li id="guide" class="line-trigger">
+      <div class="line-wrap">
+        <div class="line top"></div>
+        <div class="line center"></div>
+        <div class="line bottom"></div>
+      </div>
+    </li>
+    <li id="logo">
+      <a><i class="fa fa-cloud"></i></a>
+      <a id="logo_title" class="hidden-xs">服务系统</a>
+    </li>
+    <li class="pull-right">
+      <ul class="hi-menu">
+        <!-- 主题选择 -->
+        <li class="dropdown">
+          <a class="waves-effect waves-light" data-toggle="dropdown">
+            <i class="him-icon fa fa-magic"></i>
+          </a>
+          <ul class="dropdown-menu dm-icon pull-right">
+            <li class="skin-switch">请选择主题</li>
+            <li class="divider"></li>
+            <li class="divider"></li>
+            <li><a class="switch-skins skin-sky" data-skin="skin-sky"></a>
+            </li>
+            <li><a class="switch-skins skin-green" data-skin="skin-green"></a>
+            </li>
+            <li><a class="switch-skins skin-pink" data-skin="skin-pink"></a>
+            </li>
+          </ul>
+        </li>
+        <!-- 全屏切换 -->
+        <li id="fullScreenBtn">
+          <a class="waves-effect waves-light" data-ma-action="fullscreen" onclick="fullPage()">
+            <i id="full-screen" class="fa fa-expand him-icon"></i></a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</header>
+<section id="main">
+  <!-- 左侧导航 -->
+  <aside id="sidebar">
+    <!-- 个人资料 -->
+    <div class="sp-profile">
+      <a class="waves-effect waves-light">
+        <div class="sp-pic">
+          <img src="assets/images/avatar.jpg"/>
+        </div>
+        <div class="sp-info">
+          <span id="nickname">管理员</span>
+          <i class="fa fa-caret-right"></i>
+        </div>
+      </a>
+      <ul class="main-menu">
+        <li>
+          <a class="waves-effect" href="logout">
+            <i class="fa fa-sign-out"></i> 退出登录</a>
+        </li>
+      </ul>
+    </div>
+    <!-- 功能菜单 -->
+    <ul id="side-menu" class="main-menu">
+      <li>
+        <a class="waves-effect" onclick="addTab('首　页', 'home')">
+          <i class="fa fa-home"></i>首　页
+        </a>
+      </li>
+    </ul>
+  </aside>
+  <!-- 中心面板 -->
+  <section id="content">
+    <div class="content_tab">
+      <div class="tab_left">
+        <a class="waves-effect waves-light">
+          <i class="fa fa-chevron-left"></i></a>
+      </div>
+      <div class="tab_right">
+        <a class="waves-effect waves-light">
+          <i class="fa fa-chevron-right"></i></a>
+      </div>
+      <ul id="tabs" class="tabs">
+        <li id="tab_home" data-index="home" data-closeable="false" class="curiframe">
+          <a class="waves-effect waves-light">首　页</a>
+        </li>
+      </ul>
+    </div>
+    <!-- 首页内容 -->
+    <div class="content_main">
+      <div id="iframe_home" class="iframe curiframe">
+        <div class="jumbotron">
+          <div class="container">
+            <h3>欢迎使用。。</h3>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+</body>
+<script src="vendor/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="vendor/waves/waves.min.js"></script>
+<script src="vendor/malihu-scrollbar/jquery.mScrollbar.min.js"></script>
+<script src="vendor/BootstrapMenu.min.js"></script>
+<script src="vendor/jquery.jdirk.min.js"></script>
+<script src="vendor/device.min.js"></script>
+<script src="assets/index.js"></script>
+</html>

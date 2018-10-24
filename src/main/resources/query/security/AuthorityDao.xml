@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="boot.security.dao.AuthorityDao">
+  <select id="getUserAuthorities" parameterType="java.lang.Long"
+          resultType="boot.security.vo.AuthorityNode">
+    SELECT
+      a.authority_id,
+      a.name,
+      a.code,
+      a.type,
+      a.content,
+      a.parent_id
+    FROM authority a
+      JOIN role_authority ra ON a.authority_id = ra.authority_id
+      JOIN role r ON r.role_id = ra.role_id
+      JOIN user_role ur ON r.role_id = ur.role_id
+    WHERE ur.user_id = #{userId,jdbcType=BIGINT}
+  </select>
+
+  <select id="getAuthorityNodes" resultType="boot.security.vo.AuthorityNode">
+    SELECT
+      `authority`.`authority_id`,
+      `authority`.`code`,
+      `authority`.`content`,
+      `authority`.`create_time`,
+      `authority`.`name`,
+      `authority`.`parent_id`,
+      `authority`.`type`
+    FROM
+      `authority` `authority`
+  </select>
+</mapper>
